@@ -1,0 +1,44 @@
+*{
+  margin: 0 auto;
+  padding: ;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+#form_container
+{
+	padding:30px 30px;
+	background: rgba(0,0,0,0.5);	
+	color:#fff;
+  position: relative;
+  left: 9cm;
+  top: 5cm;
+  border-radius: 10px;
+}
+body
+{
+	background-color: #5d5d5d;
+	background-size: cover;
+	background-repeat:no-repeat;
+
+}
+.upload-btn-wrapper 
+{
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] 
+{
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+
+
